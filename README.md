@@ -2,7 +2,7 @@
 
 ## IMPORTANT NOTE
 
-This project was originally created at YHack 2019 with a group of talented developers: Anderson Addo, Peter Li, and Nicholas Springer. A lot of the foundation of this app was laid during the event, and I've only cloned this repo to work on it more individually, as well as refactor it.
+This project was originally created at YHack 2019 with a group of talented developers: Anderson Addo (andersonaddo), Peter Li (petersli), and Nicholas Springer (NicholasSpringer). A lot of the foundation of this app was laid during the event, and I've only cloned this repo to work on it more individually, as well as refactor it.
 
 ## Inspiration
 
