@@ -1,5 +1,9 @@
 # Cookie Cash 🍪
 
+## IMPORTANT NOTE
+
+This project was originally created at YHack 2019 with a group of talented developers: Anderson Addo, Peter Li, and Nicholas Springer. A lot of the foundation of this app was laid during the event, and I've only cloned this repo to work on it more individually, as well as refactor it.
+
 ## Inspiration
 
 For most kids, there are things that are good for them that they wouldn't do on their own -- i.e. taking a shower, eating veggies, doing homework. We wanted to make a system that helps parents motivate kids to be healthy and responsible, while also teaching them basic financial literacy and some important life lessons.
