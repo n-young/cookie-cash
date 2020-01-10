@@ -12,7 +12,7 @@ app.use(cors());
 app.use(express.json());
 app.set("view engine", "ejs");
 app.use(express.static(path.join(__dirname, '../', 'public', 'client', 'build')));
-app.use(express.static(path.join(__dirname, '../', 'public')));
+app.use(express.static(path.join(__dirname, '../', 'public', 'static')));
 
 const uri = process.env.ATLAS_URI;
 mongoose.connect(uri, { useNewUrlParser: true, useCreateIndex: true });
@@ -26,11 +26,11 @@ const childRouter = require('./routes/child');
 const parentRouter = require('./routes/parent');
 
 app.get('/', (req, res) => {
-    res.render(path.join(__dirname, '../', 'public', 'views', 'index.ejs'));
+    res.render(path.join(__dirname, '../', 'public', 'static', 'views', 'index.ejs'));
 })
 
 app.get('/login', (req, res) => {
-    res.render(path.join(__dirname, '../', 'public', 'views', 'login.ejs'));
+    res.render(path.join(__dirname, '../', 'public', 'static', 'views', 'login.ejs'));
 })
 
 app.get('/app', (req, res) => {
