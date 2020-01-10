@@ -2,9 +2,7 @@ import React from 'react';
 import { Column, Row } from 'simple-flexbox';
 import { HashRouter, Route, Link } from "react-router-dom";
 
-
 export default class Bonds extends React.Component {
-
     bonds = [{
         time: 12,
         yield: 64,

@@ -40,6 +40,7 @@ export default class History extends React.Component {
 
 class TransactionSlide extends React.Component {
     render() {
+        /*
         var imageSrc;
         if (this.props.transaction.type == "Bond") {
             imageSrc = require('../shared-assets/BondImage.svg')
@@ -48,12 +49,13 @@ class TransactionSlide extends React.Component {
         } else if (this.props.transaction.type == "Transfer") {
             imageSrc = require('../shared-assets/TransferImage.svg')
         }
+        */
         return (
             <Row
                 vertical="center"
                 class="jobSlide">
                 <img
-                    src={imageSrc}
+                    //src={imageSrc}
                     style={{ width: "60px", height: "60px", padding: 20 }} />
                 <Column>
                     <h3> {this.props.transaction.type} </h3>
